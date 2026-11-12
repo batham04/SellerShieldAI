@@ -1,0 +1,11 @@
+{
+  "name": "sellershield-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node ../node_modules/nodemon/bin/nodemon.js src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/scripts/seed.js"
+  }
+}
